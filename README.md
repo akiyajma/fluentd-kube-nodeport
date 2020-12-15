@@ -2,7 +2,8 @@
 It is nodeportservice of kubernetes and moves fluentd
 
 ## architecture
-![fluentd-kube-nodeport](![fluentd-kube-nodeport](https://user-images.githubusercontent.com/74946073/102186086-6fe32980-3ef5-11eb-96c8-971c5191927f.png))
+![test](https://user-images.githubusercontent.com/74946073/102186666-4c6cae80-3ef6-11eb-9309-3807517218e5.png)
+
 
 ## setup
 ### Create a working directory
