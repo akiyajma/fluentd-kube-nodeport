@@ -2,7 +2,7 @@
 It is nodeportservice of kubernetes and moves fluentd
 
 ## architecture
-![fluentd-kube-nodeport](https://user-images.githubusercontent.com/74946073/102181630-4f63a100-3eee-11eb-8670-d058045a979b.png)
+![fluentd-kube-nodeport](![fluentd-kube-nodeport](https://user-images.githubusercontent.com/74946073/102186086-6fe32980-3ef5-11eb-96c8-971c5191927f.png))
 
 ## setup
 ### Create a working directory
@@ -27,5 +27,5 @@ kubectl apply -f fluent-conf-configmap.yaml
 kubectl apply -f fluentd.yaml
 ```
 ### options
-The contents of fluent.conf set it in fluent-conf-configmap.The configuration file is stored in the volume of kubernetes.[details](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/)
+The contents of fluent.conf set it in fluent-conf-configmap.The configuration file is stored in the volume of kubernetes.[details.](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/)
 
