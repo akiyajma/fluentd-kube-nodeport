@@ -30,3 +30,6 @@ kubectl apply -f fluentd.yaml
 ### options
 The contents of fluent.conf set it in fluent-conf-configmap.The configuration file is stored in the volume of kubernetes.[details.](https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/)
 
+## sample-architecture
+![fluentd-kube-nodeport (2)](https://user-images.githubusercontent.com/74946073/102188451-a40c1980-3ef8-11eb-9122-b68b95a49086.png)
+
